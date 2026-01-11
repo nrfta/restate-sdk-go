@@ -10,7 +10,7 @@ crate-type = ["cdylib"]
 restate-sdk-shared-core = { git = "https://github.com/restatedev/sdk-shared-core.git", rev = "96b78a6160880cc4b34c56750dd96652e11cd81c" }
 bytes = "1.10"
 tracing = "0.1.40"
-tracing-subscriber = { version = "0.3.18", default-features = false, features = ["fmt", "std"] }
+tracing-subscriber = { version = "0.3.20", default-features = false, features = ["fmt", "std"] }
 prost = "0.13.5"
 
 [build-dependencies]
